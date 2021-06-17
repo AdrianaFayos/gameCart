@@ -1,0 +1,27 @@
+.loginContainer {
+
+    height: 40em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botonLogin {
+    cursor: pointer;
+    width: 8em;
+    height: 4em;
+    border: solid 0.2em rgb(102, 157, 173);
+    transition: 0.2s;
+    color: rgb(102, 157, 173);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonLogin:hover{
+    background-color: rgb(208, 241, 250);;
+    transition: 0.2s;
+}

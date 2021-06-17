@@ -1,0 +1,41 @@
+.headerContainer{
+    background-color: rgb(102, 157, 173);
+    height: 5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 3em;
+    align-items: center;
+}
+
+.links{
+    width: 11em;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tap:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.tap {
+    margin: 0.5em
+}
+
+.carrito{
+    margin-right: 2em;
+    color: white;
+    width: 5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

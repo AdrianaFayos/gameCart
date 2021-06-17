@@ -1,0 +1,86 @@
+.cart{
+    width: 100vw;
+    margin-top: 1em;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartContainer {
+    height: 30em;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.juego{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.uno{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2em;
+    width: 20em;
+    height: 20em;
+    border: solid 0.2em rgb(102, 157, 173);  
+}
+
+.botonCart {
+    cursor: pointer;
+    width: 4em;
+    height: 3em;
+    border: solid 0.2em rgb(102, 157, 173);
+    transition: 0.2s;
+    color: rgb(102, 157, 173);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonCart:hover{
+    background-color: rgb(208, 241, 250);;
+    transition: 0.2s;
+}
+
+.botonVaciar {
+    cursor: pointer;
+    width: 15em;
+    height: 4em;
+    border: solid 0.2em rgb(102, 157, 173);
+    transition: 0.2s;
+    color: rgb(102, 157, 173);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonVaciar:hover{
+    background-color: rgb(208, 241, 250);;
+    transition: 0.2s;
+}
